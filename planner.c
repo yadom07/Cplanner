@@ -256,8 +256,6 @@ void viewTask() {
         return;
     }
 
-    while (getchar() != '\n') {
-    }
 
     if (idx < 1 || idx > n) {
         printf("Out of range.\n");
@@ -293,10 +291,6 @@ void delTask() {
         return;
     }
 
-    while (getchar() != '\n') {
-
-    }
-
     if (idx < 1 || idx > n) {
         printf("Out of range.\n");
         return;
@@ -327,9 +321,6 @@ void doneTask() {
         return;
     }
 
-    while (getchar() != '\n') {
-
-    }
 
     if (idx < 1 || idx > n) {
         printf("Out of range.\n");
